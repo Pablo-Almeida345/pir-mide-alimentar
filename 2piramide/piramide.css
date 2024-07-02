@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camada1{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+}
+
+.camada2{
+    background: red;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header button {
+    border: none;
+    background: none;
+}
+
+header nav.mobile {
+    position: fixed;
+    background: green;
+    border-radius: 30px;
+    right: -16rem;
+    top: 0;
+    height: 100vh;
+    width: 16rem;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1.5rem;
+
+    transition: 0.7s;
+    color: white;
+}
+
+header nav.mobile.abrir {
+    right: 0;
+}
+
+header nav button {
+    align-self: flex-end;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+
+header .mobile a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+header .desktop {
+    display: none;
+}
