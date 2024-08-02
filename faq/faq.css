@@ -1,21 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d9e8d6;
+    background-color: white;
 }
 
 header {
-    background-color: #6fa24a;
-    padding: 10px;
+    background-color: #7CB342;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -25,35 +26,34 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
-    line-height: 40px;  
-}
-
-nav ul li a.ativo {
-    color: blue;
     font-weight: bold;
+    margin-right: 100px;
 }
 
-.faq-section {
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 40px);
-    margin-right: 600px;
-    margin-right: 0;    
+    height: 90vh;
 }
 
-.faq-informacao {
-    background-color: #7ba56d;
-    border: 2px solid #445c38;
-    padding: 20px;
+.section {
+    background-color: #558B2F;
     border-radius: 10px;
+    display: flex;
+    padding: 20px;
     width: 80%;
-    max-width: 600px;
-    position: relative;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.faq-informacao h2 {
+.container {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.container h2 {
     color: white;
 }
 
@@ -61,27 +61,38 @@ nav ul li a.ativo {
     margin-bottom: 20px;
 }
 
-.faq h3 {
+.faq p {
     color: white;
     margin: 0;
 }
 
-.faq p {
-    color: #e2e2e2;
-    margin: 0;
-}
-
-
-.atras{
-    background: #445c38;
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-}
-
-.img-interogacao{
+.interogacao {
+    flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: #33691E;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.interogacao button {
+    background-color: #A5D6A7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.img-interogacao {
+    font-size: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.pergunta{
+    font-weight: bold;
 }

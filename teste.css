@@ -1,0 +1,16 @@
+div
+{
+    float:left;  
+    height:50px;
+    width:100px;
+    border: 1px solid #000000;
+}
+#id4
+{
+    clear:left;
+}
+#id3
+{
+   height:102px;
+   margin-top:-52px;
+}

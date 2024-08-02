@@ -5,84 +5,97 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
 }
-
 header {
+    background-color: #7CB342;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #fff;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
-.header-left img {
-    height: 30px;
+nav ul li {
+    margin: 0 15px;
 }
 
-.header-right a {
-    margin-left: 20px;
+nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #000;
     font-weight: bold;
+    margin-right: 100px;
 }
 
-.banner {
+.conteiner{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camada1{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+}
+
+.camada2{
+    background: red;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header button {
+    border: none;
+    background: none;
+}
+
+header nav.mobile {
+    position: fixed;
+    background: green;
+    border-radius: 30px;
+    right: -16rem;
+    top: 0;
+    height: 100vh;
+    width: 16rem;
+    z-index: 999;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #8bc34a;
-    padding: 20px;
-    position: relative;
+    padding: 1.5rem;
+    gap: 1.5rem;
+
+    transition: 0.7s;
+    color: white;
 }
 
-.banner-content {
-    position: absolute;
-    top: 30%;
-    text-align: center;
-    color: #fff;
+header nav.mobile.abrir {
+    right: 0;
 }
 
-.banner-content h1 {
-    font-size: 50px;
-    margin: 0;
-    font-family: 'Brush Script MT', cursive;
+header nav button {
+    align-self: flex-end;
+    margin-bottom: 4rem;
+    cursor: pointer;
 }
 
-.banner-content p {
-    font-size: 20px;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
-
-.food-image {
-    margin-top: 60px;
-}
-
-.food-image img {
-    width: 100%;
-    height: auto;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    background-color: #fff;
-    padding: 15px 0;
-    border-top: 1px solid #ccc;
-}
-
-.menu a {
+header .mobile a {
     text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: var(--dark-blue);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
 }
 
-.menu a img {
-    display: block;
-    margin-bottom: 5px;
-    width: 30px;
-    height: 30px;
+header .desktop {
+    display: none;
 }
