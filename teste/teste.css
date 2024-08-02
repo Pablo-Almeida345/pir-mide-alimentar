@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guia{
+    border: none;
+    background: none;
+}       
+
+.nav1{
+    position: fixed;
+}
