@@ -40,6 +40,7 @@ nav ul li a.ativo {
     align-items: center;
     height: calc(100vh - 40px);
     margin-right: 600px;
+    margin-right: 0;    
 }
 
 .faq-informacao {
@@ -73,6 +74,14 @@ nav ul li a.ativo {
 
 .atras{
     background: #445c38;
-    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
 
+.img-interogacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
