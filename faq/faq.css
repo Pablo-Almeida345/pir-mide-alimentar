@@ -6,8 +6,22 @@ body {
     background-color: white;
 }
 
+
+:root{
+    --background:#FFFFFF;
+    --texto:#000;
+    --v1:#008000;
+    --v2: #7CB342;
+    --v3:#558B2F;
+    --v4:#33691E;
+    --verde-claro:#90ee90;
+    --ativo:#0000FF;
+    --cinza:#d3d3d3;
+}
+    
+
 header {
-    background-color: #7CB342;
+    background-color: var(--v2);
     padding: 10px 0;
 }
 
@@ -30,6 +44,13 @@ nav ul li a {
     margin-right: 100px;
 }
 
+.texto1{
+    padding: 15px;
+}
+
+.ativo{
+    color: var(--ativo);
+}
 
 main {
     display: flex;
@@ -39,7 +60,7 @@ main {
 }
 
 .section {
-    background-color: #558B2F;
+    background-color: var(--v3);
     border-radius: 10px;
     display: flex;
     padding: 20px;
@@ -54,7 +75,7 @@ main {
 }
 
 .container h2 {
-    color: white;
+    color: var(--background);
 }
 
 .faq {
@@ -62,7 +83,7 @@ main {
 }
 
 .faq p {
-    color: white;
+    color: var(--background);
     margin: 0;
 }
 
@@ -72,13 +93,13 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #33691E;
+    background-color: var(--v4);
     border-radius: 10px;
     padding: 20px;
 }
 
 .interogacao button {
-    background-color: #A5D6A7;
+    background-color: var(--verde-claro);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -89,7 +110,7 @@ main {
 
 .img-interogacao {
     font-size: 150px;
-    color: black;
+    color: var(--texto);
     font-weight: bold;
 }
 

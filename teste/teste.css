@@ -67,7 +67,9 @@ div{
 }
 .part3 {
     border-width: 0 60px 80px 60px;
-    border-color: transparent transparent #3F51B5 transparent; /* Azul */
+    background-image: url("../imagens/carboidrato.png");
+    border-color: transparent transparent transparent; 
     bottom: 120px;
     left: 90px;
 }
+

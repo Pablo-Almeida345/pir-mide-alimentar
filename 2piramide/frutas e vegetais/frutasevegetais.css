@@ -81,7 +81,7 @@ main {
 }
 
 
-.interogacao {
+.img {
     flex: 1px;
     display: flex;
     flex-direction: column;
@@ -90,4 +90,25 @@ main {
     padding: 20px;
 }
 
+.saiba{
+    margin: 10px;
+    border-radius: 25px;    
+    width: 250px;
+    height: 60px;
+    background: green;
+    color: white;
+}
 
+
+
+button {
+    justify-content: center;
+    display: flex;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
