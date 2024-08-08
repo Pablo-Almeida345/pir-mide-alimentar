@@ -1,7 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-optical-sizing: auto;
+}
+
 
 :root{
-    --background:#FFFFFF;
-    --texto:#000;
+  --background:#FFFFFF;
+  --texto:#000;
+  --v1:#008000;
+  --v2: #7CB342;
+  --v3:#558B2F;
+  --v4:#33691E;
+  --v5:#333;
+  --verde-claro:#90ee90;
+  --ativo:#0000FF;
+  --cinza:#d3d3d3;
 }
 
 body {
@@ -19,6 +35,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.guia{
+  border:none!important;
+  background: var(--background);
 }
 
 a{
@@ -39,8 +60,10 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: var(--v5);
 }
+
+
 
 .inicial{
   display: flex;

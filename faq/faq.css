@@ -1,8 +1,12 @@
-body {
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
     background-color: white;
 }
 
@@ -14,11 +18,12 @@ body {
     --v2: #7CB342;
     --v3:#558B2F;
     --v4:#33691E;
+    --v5:#333;
     --verde-claro:#90ee90;
     --ativo:#0000FF;
     --cinza:#d3d3d3;
-}
-    
+  }
+  
 
 header {
     background-color: var(--v2);
@@ -66,7 +71,6 @@ main {
     padding: 20px;
     width: 80%;
     max-width: 1000px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -76,6 +80,7 @@ main {
 
 .container h2 {
     color: var(--background);
+    padding: 5px;
 }
 
 .faq {

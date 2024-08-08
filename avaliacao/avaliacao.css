@@ -7,17 +7,21 @@
 }
 
 :root{
-    --dark-blue: #262e38;
-    --light-grey: #969fad;
-    --medium-grey: #7c8798;
-    --orange: #fc7614;
-    --white: #fff;
-    --very-dark-blue: #131518;
-    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
-}
+    --background:#FFFFFF;
+    --texto:#000;
+    --v1:#008000;
+    --v2: #7CB342;
+    --v3:#558B2F;
+    --v4:#33691E;
+    --v5:#333;
+    --verde-claro:#90ee90;
+    --ativo:#0000FF;
+    --cinza:#d3d3d3;
+  }
+  
 
 body{
-    background-color: var(--very-dark-blue);
+    background-color: var(--background);
     height: 100svh;
     display: flex;
     justify-content: center;
@@ -25,13 +29,13 @@ body{
 }
 
 .card{
-    background: var(--black-gradient);
+    background: var(--v1);
     max-width: 412px;
     padding: 32px;
     border-radius: 30px;
 }
 .estrela{
-    background-color: var(--dark-blue);
+    background-color: var(--v3);
     width: 48px;
     height: 48px;
     display: flex;
@@ -42,13 +46,13 @@ body{
 }
 
 .card h1{
-    color: var(--white);
+    color: var(--background);
     font-size: 28px;
     margin-bottom: 15px;
 }
 
 .card p{
-    color: var(--light-grey);
+    color: var(--background);
     line-height: 24px;
     margin-bottom: 24px;
 }
@@ -66,28 +70,27 @@ body{
     line-height: 24px;
     border-radius: 50px;
     border: none;
-    color: var(--medium-grey);
-    background-color: var(--dark-blue);
+    background-color: var(--v2);
 
     transition: all ease-in-out 0.3s;
 }
 
 .botoes button:hover{
-    color: var(--white);
-    background-color: var(--orange);
+    color: var(--texto);
+    background-color: var(--cinza);
     cursor: pointer;
 }
 
 .botoes button:focus{
-    color: var(--white);
-    background-color: var(--medium-grey);
+    color: var(--texto);
+    background-color: var(--cinza);
 }
 
 .card > a{
     display: block;
     width: 100%;
     padding: 13px;
-    background-color: var(--orange);
+    background-color: var(--texto);
     border: none;
     border-radius: 22px;
 
@@ -95,7 +98,7 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: var(--white);
+    color: var(--cinza);
     text-align: center;
     text-decoration: none;
 
@@ -103,7 +106,7 @@ body{
 }
 
 .card > a:hover{
-    color: var(--orange);
-    background-color: var(--white);
+    color: var(--cinza);
+    background-color: var(--v4);
     cursor: pointer;
 }

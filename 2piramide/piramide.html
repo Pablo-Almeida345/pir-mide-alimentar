@@ -9,44 +9,41 @@
 </head>
 <body>
     <header>
-        <img src="../icones/home_846449.png" alt="ícone da home" width="30px">
-        <a href="">FAQ</a>
-        <a href="../../3contatos/contatos.html">Contatos</a>
-        <button>
-          <img src="../icones/guia.png" alt="ícone do guia" width="30px">
-      </button>
-      <nav class="mobile">
-          <button>
-              <img src="../icones/delete_32178.png" alt="ícone do x" width="30px">
-          </button>
-          <h1>Guia do site</h1>
-          <a href="../1home/home.html">1 HOME</a>
-          <a href="#">2 PIRAMIDE</a>
-          <a href="#">3 RECEITAS</a>
-          <a href="../quiz/quiz.html">4 QUIZ</a>
-          <a href="#">5 FAQ</a>
-          <a href="#">6 Planejamento Alimentar</a>
-          <a href="../../3contatos/contatos.html">7 Contatos</a>
-    
-      </nav>
-      </header>
+        <nav>
+            <ul>
+                <li><img src="../../icones/home.png" width="45px" alt="icone da home" onclick="home()"></li>
+                <li><a href="" class="ativo">Pirâmide</a></li>
+                <li><a href="">Receitas</a></li>
+                <li><a href="../../quiz/quiz.html">Quiz</a></li>
+                <li><a href="../../faq/faq.html">FAQ</a></li>
+                <li><a href="">Contatos</a></li>
+            </ul>
+            <button class="guia"><img src="../../icones/guia.png" alt="Logo" width="45px"></button>
+        </nav>
+    </header>
 
-      <div class="texto">
-        <h1><strong>PIRAMIDE ALIMENTAR</strong></h1>
-        <p>A pirâmide alimentar é uma 
-            representação gráfica que guia 
-            escolhas para uma dieta equilibrada.
-            Ela destaca a importância de grupos
-            alimentares, com base em 
-            carboidratos, seguida por proteínas, 
-            laticínios, frutas e vegetais, e topo 
-            para gorduras e açúcares, indicando
-            moderação. Essencial para promover
-            hábitos alimentares saudáveis.</p>
-      </div>
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2>Perguntas frequentes:</h2>
+                <div class="faq">
+                    <p class="pergunta">O que é a pirâmide alimentar?</p>
+                    <p>É uma representação gráfica que mostra os diferentes grupos alimentares e a quantidade recomendada de cada grupo.</p>
+                </div>
+            </div>
+            <div class="interogacao">
+                <button onclick="avaliacao()">Faça sua avaliação</button>
 
-      <div class="Piramide">
-        <p>montar a piramide aqui</p>
-      </div>
+                <div class="container">
+                    <div class="triangulo base"></div>
+                    <div class="triangulo part1"></div>
+                    <div class="triangulo part2"></div>
+                    <div class="triangulo part3"></div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

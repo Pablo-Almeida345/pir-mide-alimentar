@@ -1,12 +1,33 @@
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
     background: green;
 }
 
+
+
+:root{
+    --background:#FFFFFF;
+    --texto:#000;
+    --v1:#008000;
+    --v2: #7CB342;
+    --v3:#558B2F;
+    --v4:#33691E;
+    --v5:#333;
+    --verde-claro:#90ee90;
+    --ativo:#0000FF;
+    --cinza:#d3d3d3;
+  }
+  
+
 header {
-    background-color: white;
+    background-color: var(--background);
     padding: 10px 0;
 }
 
@@ -20,6 +41,21 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.texto1{
+    padding: 15px;
+}
+
+.ativo{
+    color: var(--ativo);
 }
 
 nav ul li a {

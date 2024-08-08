@@ -33,43 +33,41 @@ div{
 }
 
 
-.container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 300px;
+
+
+
+
+.pyramid {
+    width: 200px;
     height: 300px;
-    margin: 50px auto;
-}
-.triangulo {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-}
-.base {
-    border-width: 0 150px 200px 150px;
-    border-color: transparent transparent #4CAF50 transparent; /* Verde */
-    bottom: 0;
-    left: 0;
-}
-.part1 {
-    border-width: 0 120px 160px 120px;
-    border-color: transparent transparent #FF9800 transparent; /* Laranja */
-    bottom: 40px;
-    left: 30px;
-}
-.part2 {
-    border-width: 0 90px 120px 90px;
-    border-color: transparent transparent #F44336 transparent; /* Vermelho */
-    bottom: 80px;
-    left: 60px;
-}
-.part3 {
-    border-width: 0 60px 80px 60px;
-    background-image: url("../imagens/carboidrato.png");
-    border-color: transparent transparent transparent; 
-    bottom: 120px;
-    left: 90px;
+    position: relative;
+    background-color: #f2f2f2; /* Cor de fundo da pirâmide */
 }
 
+.level {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+}
+
+.level-1 {
+    bottom: 0;
+    background-color: #e0e0e0;
+}
+
+.level-2 {
+    bottom: 100px;
+    background-color: #d0d0d0;
+}
+
+.level-3 {
+    bottom: 200px;
+    background-color: #c0c0c0;
+}
+
+.level-4 {
+    bottom: 300px;
+    background-color: #b0b0b0;
+}
