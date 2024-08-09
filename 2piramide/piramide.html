@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="piramide.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <script src="piramide.js" defer></script>
     <title>Piramide Alimentar</title>
 </head>
@@ -25,22 +26,30 @@
     <main>
         <section class="section">
             <div class="container">
-                <h2>Perguntas frequentes:</h2>
-                <div class="faq">
-                    <p class="pergunta">O que é a pirâmide alimentar?</p>
-                    <p>É uma representação gráfica que mostra os diferentes grupos alimentares e a quantidade recomendada de cada grupo.</p>
-                </div>
-            </div>
-            <div class="interogacao">
-                <button onclick="avaliacao()">Faça sua avaliação</button>
+                <img src="../../imagens/planta.png" alt="imagem de planta" width="82">
+                <h1>PIRAMIDE ALIMENTAR</h1>
 
-                <div class="container">
-                    <div class="triangulo base"></div>
-                    <div class="triangulo part1"></div>
-                    <div class="triangulo part2"></div>
-                    <div class="triangulo part3"></div>
+
+                <div class="resposta">
+                    <p>A pirâmide alimentar é uma 
+                        representação gráfica que guia 
+                        escolhas para uma dieta equilibrada.
+                        Ela destaca a importância de grupos
+                        alimentares, com base em 
+                        carboidratos, seguida por proteínas, 
+                        laticínios, frutas e vegetais, e topo 
+                        para gorduras e açúcares, indicando
+                        moderação. Essencial para promover
+                        hábitos alimentares saudáveis.</p>
                 </div>
-                
+
+            </div>
+            <div class="interogacao"> 
+                <div class="img "> 
+                    <img src="../icones/T3.png" alt="gorduras" width="200x" onclick="t3()">
+                    <img src="../icones/T2.png" alt="proteínas" width="300x" onclick="t2()">
+                    <img src="../icones/T1.png" alt="frutas e vegetais" width="400px" onclick="t1()"> 
+                    <img src="../icones/base.png" alt="carboidratos" width="500x"  onclick="base()">
                 </div>
             </div>
         </section>

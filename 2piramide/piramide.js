@@ -1,18 +1,15 @@
-const botaoabrir = document.querySelector("header > button")
-const botaofechar = document.querySelector("header nav.mobile button")
-
-const body = document.querySelector("body")
-const nav = document.querySelector("header nav.mobile")
-
-botaoabrir.addEventListener('click', abrirMenu)
-botaofechar.addEventListener('click', fecharMenu)
-
-function abrirMenu() {
-    body.classList.add("tela-escurecer")
-    nav.classList.add("abrir")
+function base() {
+    window.location.href = "./carboidratos/carboidratos.html";
 }
 
-function fecharMenu() {
-    body.classList.remove("tela-escurecer")
-    nav.classList.remove("abrir")
+function t1() {
+    window.location.href = "./frutas e vegetais/frutasevegetais.html";
+}
+
+function t2() {
+    window.location.href = "./proteinas/proteinas.html";
+}
+
+function t3() {
+    window.location.href = "./gorduras/gorduras.html";
 }

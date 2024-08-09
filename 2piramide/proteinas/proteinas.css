@@ -18,9 +18,6 @@
     --verde-claro:#90ee90;
     --ativo:#0000FF;
     --cinza:#d3d3d3;
-    --t1:#ffff00;
-    --t2:#ffa500;
-    --t3:#ff0000;
 }
   
   header {
@@ -62,15 +59,16 @@
   }
   
   
-  .ativo{
+.ativo{
     color: var(--ativo);
 }
 
 .seta {
     display: flex;
     justify-content: baseline;
-    margin: 10px 25px;
+    margin: 15px 25px;
 }
+
 
 main {
     display: flex;
@@ -99,14 +97,19 @@ main {
     align-items: center;
     color: white;
     font-size: 50px;
-    margin: 20px;
 }
 
-
-.resposta p {
+.subtitulo{
     color: white;
     padding: 5px;
     font-size: 25px;
+}
+
+.resposta p {
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+
 }
 
 
@@ -117,4 +120,27 @@ main {
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
+
+.saiba{
+    margin: 10px;
+    border-radius: 25px;    
+    width: 250px;
+    height: 60px;
+    background: var(--v3);
+    color: white;
+}
+
+
+
+button {
+    justify-content: center;
+    display: flex;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin: 10px;
 }

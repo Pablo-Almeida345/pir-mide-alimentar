@@ -40,14 +40,17 @@ div{
 .pyramid {
     width: 200px;
     height: 300px;
-    position: relative;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    position: center;
     background-color: #f2f2f2; /* Cor de fundo da pirâmide */
 }
 
 .level {
     position: absolute;
     width: 100%;
-    text-align: center;
+
     padding: 10px;
     box-sizing: border-box; /* Inclui padding no cálculo da largura */
 }
