@@ -101,11 +101,11 @@ nav a {
 }
 
 .conteiner {
-  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 100px;
+
 }
 
 .carousel {
@@ -123,7 +123,6 @@ nav a {
 
 .seta1, .seta2 {
   position: fixed;
-  top: 45%;
   transform: translateY(-50%);
   background: none;
   border: none;

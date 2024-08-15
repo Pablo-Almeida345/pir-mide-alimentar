@@ -17,12 +17,12 @@ setaButton.addEventListener('click', () => {
 });
 
 seta2Button.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % slides.length;
+  currentIndex = (currentIndex + 3) % slides.length;
   showSlide(currentIndex);
 });
 
 showSlide(currentIndex);
 
-function seta() {
-    window.location.href = "../piramide.html";
+function coxinha_de_frango(){
+    window.location.href = "../receitas/coxinha de frango/coxinha.html";
 }

@@ -57,12 +57,6 @@ nav ul li a {
     color: var(--ativo);
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-}
 
 .section {
     background-color: var(--v3);
