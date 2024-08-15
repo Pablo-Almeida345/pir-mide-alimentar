@@ -11,3 +11,7 @@ planejamento.addEventListener('click', () => {
 function quiz() {
     window.location.href = "./quiz/quiz.html";
 }
+
+function receita() {
+    window.location.href = "receitas/receitas.html";
+}
