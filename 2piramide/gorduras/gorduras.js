@@ -5,3 +5,7 @@ function seta() {
 function mais(){
     window.location.href = "https://www.youtube.com/watch?feature=shared&v=kE46ae34IR0";
 }
+
+function home() {
+    window.location.href = "../../index.html";
+}

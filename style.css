@@ -59,7 +59,13 @@ nav a {
   color: var(--v5);
 }
 
-
+.barra {
+  height: 1px;
+  display: flex;
+  align-items: baseline;
+  margin: 0 25px; 
+  background-color: var(--v2); 
+}
 
 .inicial{
   display: flex;

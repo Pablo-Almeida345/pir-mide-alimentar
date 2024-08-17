@@ -13,3 +13,7 @@ function t2() {
 function t3() {
     window.location.href = "./gorduras/gorduras.html";
 }
+
+function home() {
+    window.location.href = "../../index.html";
+}

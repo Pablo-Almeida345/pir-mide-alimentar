@@ -1,28 +1,32 @@
-const slides = document.querySelectorAll('.slide');
-const setaButton = document.querySelector('.seta1');
-const seta2Button = document.querySelector('.seta2');
-let currentIndex = 0;
+const receitas = document.querySelectorAll('.receita');
+const esquerdaBtn = document.querySelector('.seta2');
+const direitatBtnBtn = document.querySelector('.seta1');
 
-const slideWidth = slides[0].clientWidth;
+let currentSlide = 0;
 
-function showSlide(index) {
-  slides.forEach((slide, i) => {
-    slide.style.transform = `translateX(${(i - index) * slideWidth}px)`;
-  });
+const showSlide = (n) => {
+    receitas.forEach((receita, index) => {
+        receita.style.transform = `translateX(${100 * (index - n)}%)`;
+    });
+};
+
+esquerdaBtn.addEventListener('click', () => {
+    currentSlide--;
+    showSlide(currentSlide);
+});
+
+direitatBtnBtn.addEventListener('click', () => {
+    currentSlide++;
+    showSlide(currentSlide);   
+
+});
+
+
+/*fuçoes de tranferencia de tela */
+function home() {
+  window.location.href = "../../index.html";
 }
 
-setaButton.addEventListener('click', () => {
-  currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-  showSlide(currentIndex);
-});
-
-seta2Button.addEventListener('click', () => {
-  currentIndex = (currentIndex + 3) % slides.length;
-  showSlide(currentIndex);
-});
-
-showSlide(currentIndex);
-
 function coxinha_de_frango(){
-    window.location.href = "../receitas/coxinha de frango/coxinha.html";
+  window.location.href = "../receitas/coxinha de frango/coxinha.html";
 }

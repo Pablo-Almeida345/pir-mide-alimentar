@@ -1,5 +1,5 @@
 function home() {
-    window.location.href = "../home.html";
+    window.location.href = "../../index.html";
 }
 
 function guia() {
@@ -9,3 +9,4 @@ function guia() {
 function avaliacao() {
     window.location.href = "../avaliacao/avaliacao.html";
 }
+
