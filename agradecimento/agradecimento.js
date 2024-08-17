@@ -11,3 +11,7 @@ function pegarNota(){
 }
 
 pegarNota()
+
+function seta(){
+    window.location.href = "../faq/faq.html";
+}

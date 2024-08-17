@@ -10,3 +10,7 @@ function guardarNota(evento) {
 
     localStorage.setItem("nota", nota)
 }
+
+function seta(){
+    window.location.href = "../faq/faq.html";
+}

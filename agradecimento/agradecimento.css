@@ -28,6 +28,12 @@ body{
     align-items: center;
 }
 
+.seta {
+    display: flex;
+    justify-content: baseline;
+    margin: 15px 25px;
+}
+
 .card{
     background: var(--v1);
     text-align: center;

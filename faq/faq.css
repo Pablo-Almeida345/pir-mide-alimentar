@@ -30,6 +30,13 @@ header {
     padding: 10px 0;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -68,7 +75,7 @@ nav ul li a {
 }
 
 .container {
-    flex: 3;
+    flex: 50000;
     margin-right: 20px;
 }
 
