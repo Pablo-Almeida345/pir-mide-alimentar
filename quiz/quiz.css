@@ -7,7 +7,7 @@
 }
 
 body {
-    background: var(--v1);
+    background: var(--fundo);
 }
 
 
@@ -23,6 +23,8 @@ body {
     --verde-claro:#90ee90;
     --ativo:#0000FF;
     --cinza:#d3d3d3;
+    --fundo:#76B666;
+    --fundo2:#456B29;
   }
   
 
@@ -74,7 +76,7 @@ nav ul li a {
 }
 
 .container {
-    background-color: #66bb6a; 
+    background-color: var(--fundo2); 
     color: #fff;
     text-align: center;
     padding: 100px;
@@ -92,8 +94,8 @@ h2 {
 }
 
 button {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: var(--fundo);
+    color: var(--background);
     padding: 15px 32px;
     text-align: center;
     font-size: 60px;

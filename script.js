@@ -1,4 +1,3 @@
-const planejamento = document.getElementById('planejamento')
 
 function piramide() {
     window.location.href = "./2piramide/piramide.html";
@@ -9,7 +8,7 @@ planejamento.addEventListener('click', () => {
 });
 
 function quiz() {
-    window.location.href = "./quiz/quiz.html";
+    window.location.href = "quiz/quiz.html";
 }
 
 function receita() {

@@ -81,8 +81,8 @@ main {
     background-color: var(--v4);
     display: flex;
     padding: 20px;
-    width: 90%;
-    height: 90%;
+    width: 99%;
+    height: 100%;
     border-radius: 50px;
 }
 
@@ -102,13 +102,13 @@ main {
 .subtitulo{
     color: white;
     padding: 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .resposta p {
     color: white;
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
