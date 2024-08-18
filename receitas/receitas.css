@@ -59,6 +59,10 @@ nav a {
   color: var(--background);
 }
 
+.ativo{
+  color: var(--ativo);
+} 
+
 .titulo{
   display: flex;
   justify-content: center;

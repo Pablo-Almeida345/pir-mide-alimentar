@@ -18,6 +18,7 @@
     --verde-claro:#90ee90;
     --ativo:#0000FF;
     --cinza:#d3d3d3;
+    --conteudo:#76B666;
 }
   
 body{
@@ -76,11 +77,12 @@ nav {
 
 .container {
     text-align: center;
-    background: var(--v4);
+    background: var(--conteudo);
     border-radius: 55px;
     color: var(--texto);
     margin: 100px;
     padding: 25px;
+    color: var(--background);
     
 }
   
@@ -93,14 +95,16 @@ nav {
     margin: 10px;
     padding: 5px;
     color: var(--texto);
-    background: var(--v3);
+    background: var(--conteudo);
     border-radius: 55px;
     display: flex;
     justify-content: space-around;
+    color: var(--background);
 }
 
 .insta{
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--background);
 }
