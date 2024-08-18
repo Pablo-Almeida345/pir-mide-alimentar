@@ -30,3 +30,21 @@ function home() {
 function coxinha_de_frango(){
   window.location.href = "../receitas/coxinha de frango/coxinha.html";
 }
+
+
+function macarron(){
+  window.location.href = "macarons/macaron.html";
+}
+
+function lasanha(){
+  window.location.href = "lasanha/lasanha.html";
+}
+
+function belem(){
+  window.location.href = "pastelbelem/belem.html";
+}
+
+function macarrao(){
+  window.location.href = "macarrao/macarrao.html";
+}
+
