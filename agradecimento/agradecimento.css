@@ -18,14 +18,14 @@
     --ativo:#0000FF;
     --cinza:#d3d3d3;
   }
-  
-
 body{
+    width: 1440px;
+    height: 8220px;
     background-color: var(--background);
-    height: 100svh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .seta {

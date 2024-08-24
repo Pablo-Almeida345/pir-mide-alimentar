@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,77 +7,77 @@
 }
 
 body {
-    background-color: white;
+    background-color: var(--background);
+    width: 1440px;
+    height: 8220px;
 }
 
-
-:root{
-    --background:#FFFFFF;
-    --texto:#000;
-    --v1:#008000;
+:root {
+    --background: #FFFFFF;
+    --texto: #000;
+    --v1: #008000;
     --v2: #7CB342;
-    --v3:#558B2F;
-    --v4:#33691E;
-    --v5:#333;
-    --verde-claro:#90ee90;
-    --ativo:#0000FF;
-    --cinza:#d3d3d3;
-  }
-  
+    --v3: #558B2F;
+    --v4: #33691E;
+    --v5: #333;
+    --verde-claro: #90ee90;
+    --ativo: #0000FF;
+    --cinza: #d3d3d3;
+}
+
 
 header {
     background-color: var(--v2);
-    padding: 10px 0;
+    padding: 5px;
 }
-
-main {
+    
+nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 90vh;
 }
-
-nav ul {
-    list-style: none;
+    
+.guia{
+    border:none!important;
+    background: var(--v2);
+}
+    
+a{
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-
-nav ul li {
+    
+nav ul {
+    display: flex;
+    list-style: none; 
+}
+    
+nav li {
     margin: 0 15px;
 }
-
-nav ul li a {
-    color: white;
+    
+nav a {
     text-decoration: none;
-    font-weight: bold;
-    margin-right: 100px;
+    color: var(--v5);
+    color: var(--background);
 }
-
-.texto1{
-    padding: 15px;
-}
-
+    
+    
 .ativo{
     color: var(--ativo);
 }
-
+  
 
 .section {
     background-color: var(--v3);
-    border-radius: 10px;
     display: flex;
-    padding: 20px;
-    width: 80%;
-    max-width: 1000px;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
 }
 
-.container {
-    flex: 50000;
-    margin-right: 20px;
-}
 
 .container h2 {
     color: var(--background);
@@ -120,6 +120,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-.pergunta{
+.pergunta, p{
     font-weight: bold;
+    padding: 10px;
 }

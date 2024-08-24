@@ -8,6 +8,8 @@
 
 body {
     background: var(--fundo);
+    width: 1440px;
+    height: 8220px;
 }
 
 

@@ -22,34 +22,39 @@
     --t2:#ffa500;
     --t3:#ff0000;
 }
-  
-  header {
-    background-color: var(--v2);
-    padding: 5px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-.guia{
-    border:none!important;
-    background: var(--v2);
+
+body{
+  width: 1440px;
+  height: 8220px;
 }
   
-  a{
+header {
+    background-color: var(--v2);
+    padding: 5px;
+}
+  
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-  }
+}
   
-  nav ul {
-    display: flex;
-    list-style: none; 
-  }
+.guia{
+  border:none!important;
+  background: var(--v2);
+}
+  
+a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+  
+nav ul {
+  display: flex;
+  list-style: none; 
+}
   
   nav li {
     margin: 0 15px;

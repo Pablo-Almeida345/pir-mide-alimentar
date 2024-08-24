@@ -20,7 +20,10 @@
   --cinza:#d3d3d3;
 }
 
-
+body{
+  width: 1440px;
+  height: 8220px;
+}
 
 header {
   background-color: var(--v2);
