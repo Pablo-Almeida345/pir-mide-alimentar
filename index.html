@@ -10,20 +10,20 @@
 </head>
 <body class="escurecer"> 
     <header>
-        <nav class="dados">
+        <div class="dados">
             <ul>
                 <li><img src="./icones/home.png" width="45px" alt=""></li>
                 <li><a href="./faq/faq.html" class="nome" >FAQ</a></li>
                 <li><a href="./contatos/contatos.html" class="nome">Contatos</a></li>
             </ul>
             <button class="guia">
-                <img src="./icones/guia.png" alt="Logo" width="45px">
+                <img src="./icones/guia.png" onclick="abrirMenu()" alt="Logo" width="45px">
             </button>
 
-            <nav class="nv1">
+            <nav class="abrir">
 
                 <button class="x">
-                    <img src="icones/imagem do x.png" alt="imagem de um x" width="33px">
+                    <img src="icones/imagem do x.png" onclick="fecharMenu()" alt="imagem de um x" width="33px">
                 </button>
 
                 <h1 class="titulo">Guia do site</h1>
@@ -39,7 +39,7 @@
 
 
             </nav>
-        </nav>
+        </div>
     </header>
     <div class="barra"></div>
 

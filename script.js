@@ -1,11 +1,20 @@
-const BotaoAbrir = document.querySelector("header>guia")
+const BotaoAbrir = document.querySelector ("header > .guia")
+const BotaoFechar = document.querySelector ("header nav button")
+
 const body = document.querySelector("body")
-const nav = document.querySelector("header .nv1")
+const nav = document.querySelector("header nav")
 
 BotaoAbrir.addEventListener('click', abrirMenu )
+BotaoFechar.addEventListener('click', fecharMenu )
 
 function abrirMenu() {
     body.classList.add("escurecer")
+    nav.classList.add("abrir")
+}
+
+function fecharMenu(){
+    body.classList.remove("escurecer")
+    nav.classList.remove("abrir")
 }
 
 function piramide() {

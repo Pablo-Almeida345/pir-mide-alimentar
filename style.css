@@ -49,14 +49,14 @@ header .titulo{
   font-size: 40px;
 }
 
-header .nv1 .text{
+header nav .text{
   color: var(--background);
   text-decoration: none;
   padding: 5px;
   font-size: 30px;
 }
 
-header .nv1{
+header nav{
   position: fixed;
   background: var(--v1);
   right: -20rem;
@@ -71,9 +71,10 @@ header .nv1{
   flex-direction: column;
   padding: 2.5rem;
   gap: 1.5rem;
+  transition: 0.7s;
 }
 
-header .nv1{
+header nav.abrir{
   right: 0;
 }
 
