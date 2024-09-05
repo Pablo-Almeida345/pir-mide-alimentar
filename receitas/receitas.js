@@ -1,25 +1,23 @@
-const receitas = document.querySelectorAll('.receita');
-const esquerdaBtn = document.querySelector('.seta2');
-const direitatBtnBtn = document.querySelector('.seta1');
 
-let currentSlide = 0;
 
-const showSlide = (n) => {
-    receitas.forEach((receita, index) => {
-        receita.style.transform = `translateX(${100 * (index - n)}%)`;
-    });
-};
+let currentIndex = 0;
 
-esquerdaBtn.addEventListener('click', () => {
-    currentSlide--;
-    showSlide(currentSlide);
-});
+function esquerda() {
+    const carousel = document.querySelector('.carousel-images');
+    if (currentIndex > 0) {
+        currentIndex--;
+    }
+    carousel.style.transform = `translateX(-${currentIndex * 220}px)`;
+}
 
-direitatBtnBtn.addEventListener('click', () => {
-    currentSlide++;
-    showSlide(currentSlide);   
-
-});
+function direita() {
+    const carousel = document.querySelector('.carousel-images');
+    const maxIndex = carousel.childElementCount - 1;
+    if (currentIndex < maxIndex) {
+        currentIndex++;
+    }
+    carousel.style.transform = `translateX(-${currentIndex * 220}px)`;
+}
 
 
 /*fuçoes de tranferencia de tela */
