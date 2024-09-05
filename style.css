@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 :root {
@@ -17,6 +18,7 @@
   --verde-claro: #90ee90;
   --ativo: #0000FF;
   --cinza: #d3d3d3;
+  --roxo:#993399;
 }
 
 body {
@@ -25,39 +27,88 @@ body {
   background-color: var(--background);
 }
 
+body.menu-open::before{
+  content: "";
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 26, 0.5);
+  top: 0;
+  left: 0;
+
+}
+
 header {
   background-color: var(--background);
   padding: 20px 40px;
+  z-index: 999;
 }
 
-nav {
+.nv1 .ativo{
+  color: var(--ativo);
+  text-decoration: none;
+}
+
+header .nv1 .text{
+  color: var(--background);
+  text-decoration: none;
+  padding: 5px;
+  font-size: 30px;
+}
+
+header .nv1{
+  position: fixed;
+  background: var(--v1);
+  right: 0;
+  top: 0;
+  border-radius: 50px;
+  height: 90vh;
+  width: 20rem;
+  z-index: 999;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  gap: 1.5rem;
+}
+
+
+header .x{
+  border: none;
+  background: none;
+}
+
+.dados {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 999;
 }
+
 
 .guia {
   border: none!important;
   background: var(--background);
 }
 
-a {
+.nome {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
 
-nav ul {
+.dados ul {
   display: flex;
   list-style: none; 
 }
 
-nav li {
+.dados li {
   margin: 0 20px;
 }
 
-nav a {
+.dados .nome {
   text-decoration: none;
   color: var(--v5);
   font-size: 1.2rem;
