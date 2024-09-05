@@ -27,7 +27,7 @@ body {
   background-color: var(--background);
 }
 
-body.menu-open::before{
+body.escurecer::before{
   content: "";
   position: fixed;
   height: 100vh;
@@ -44,9 +44,9 @@ header {
   z-index: 999;
 }
 
-.nv1 .ativo{
-  color: var(--ativo);
-  text-decoration: none;
+header .titulo{
+  color: var(--background);
+  font-size: 40px;
 }
 
 header .nv1 .text{
@@ -59,7 +59,7 @@ header .nv1 .text{
 header .nv1{
   position: fixed;
   background: var(--v1);
-  right: 0;
+  right: -20rem;
   top: 0;
   border-radius: 50px;
   height: 90vh;
@@ -73,6 +73,9 @@ header .nv1{
   gap: 1.5rem;
 }
 
+header .nv1{
+  right: 0;
+}
 
 header .x{
   border: none;
