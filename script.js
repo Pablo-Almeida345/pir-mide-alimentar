@@ -32,3 +32,7 @@ function memoria() {
 function receita() {
     window.location.href = "receitas/receitas.html";
 }
+
+function inicial(){
+    window.location.href = "receitas/receitas.html  "
+}
