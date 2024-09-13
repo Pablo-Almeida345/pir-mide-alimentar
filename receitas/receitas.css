@@ -21,7 +21,7 @@
 }
 
 body{
-  width: 1920px;
+  width: 1440px;
   height: 1080px;
 }
 
@@ -135,8 +135,8 @@ a{
 
 .carousel-container {
   width: 100%;
-  max-width: 1920px; 
-  height: 800px;     
+  max-width: 1440px; 
+  height: 400px;     
   overflow: hidden;
   position: relative;
 }

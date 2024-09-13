@@ -119,7 +119,7 @@ a {
   color: var(--v5);
 }
 
-.ativo {
+li .ativo {
   color: var(--ativo);
 } 
 

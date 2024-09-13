@@ -22,7 +22,8 @@
 
 body{
     background-color: var(--background);
-    height: 100svh;
+    width: 1440px;
+    height: 1080px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -33,7 +33,7 @@ function direita() {
     if (currentIndex < maxIndex) {
         currentIndex++;
     }
-    carousel.style.transform = `translateX(-${currentIndex * 220}px)`;
+    carousel.style.transform = `translateX(-${currentIndex * 235}px)`;
 }
 
 

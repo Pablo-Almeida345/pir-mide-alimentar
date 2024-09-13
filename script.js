@@ -1,4 +1,4 @@
-const BotaoAbrir = document.querySelector ("header > .guia")
+const BotaoAbrir = document.querySelector (".dados > .guia")
 const BotaoFechar = document.querySelector ("header nav button")
 
 const body = document.querySelector("body")
