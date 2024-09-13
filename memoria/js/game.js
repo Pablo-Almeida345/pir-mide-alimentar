@@ -19,3 +19,4 @@ const crateCard = () => {
     return card;
 }
 
+/*24:11*/

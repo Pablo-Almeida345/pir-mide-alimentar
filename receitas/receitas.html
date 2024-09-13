@@ -10,16 +10,36 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="dados">
             <ul>
                 <li><img src="../icones/home.png" width="45px" alt="" onclick="home()"></li>
                 <li><a href="../2piramide/piramide.html">Piramide</a></li>
                 <li><a href="#" class="ativo">Receitas</a></li>
-                <li><a href="../quiz/quiz.html">Quiz</a></li>
+                <li><a href="../memoria/memoria.html">Jogo Da Memória</a></li>
                 <li><a href="../faq/faq.html">FAQ</a></li>
                 <li><a href="../contatos/contatos.html">Contatos</a></li>
             </ul>
             <button class="guia"><img src="../icones/guia.png" alt="Logo" width="45px"></button>
+        </div>
+
+        <nav>
+
+            <button class="x">
+                <img src="../icones/imagem do x.png" onclick="fecharMenu()" alt="imagem de um x" width="33px">
+            </button>
+
+            <h1 class="titulo">Guia do site</h1>
+            
+
+                <a href="../index.html" class="text"><strong>1 Home</strong></a>
+                <a href="../2piramide/piramide.html" class="text"><strong>2 Piramide</strong></a>
+                <a href="../receitas/receitas.html" class="text"><strong>3 Receitas</strong></a>
+                <a href="../memoria/memoria.html" class="text"><strong>4 Jogo Da Memória</strong></a>
+                <a href="../faq/faq.html" class="text"><strong>5 FAQ</strong></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScIwhAJgX330aeNJ3HpVC5sYQgKR8aS2ktE1IOHyYi2vq2Qyg/viewform?embedded=true" class="text"><strong>6 Planejamento Alimentar</strong></a>
+                <a href="../contatos/contatos.html" class="text"><strong>7 Contatos</strong></a>
+
+
         </nav>
     </header>
     <main>
@@ -33,11 +53,16 @@
                 </button>
                 
                 <div class="carousel-images">
-                    <img src="../imagens receitas/macaron.png" alt="Macarons">
-                    <img src="../imagens receitas/coxa-de-frango.png" alt="Frango Frito">
-                    <img src="../imagens receitas/belem-pastel.png" alt="Pastel de Nata">
-                    <img src="../imagens receitas/espaguete.png" alt="Espaguete">
-                    <img src="../imagens receitas/lasanha.png" alt="Lasanha">
+                    <img src="../imagens receitas/macaron.png" alt="Macarons" onclick="macarron()">
+                    <img src="../imagens receitas/coxa-de-frango.png" alt="Frango Frito" onclick="coxinha_de_frango()">
+                    <img src="../imagens receitas/belem-pastel.png" alt="Pastel de Nata" onclick="belem()">
+                    <img src="../imagens receitas/espaguete.png" alt="Espaguete" onclick="macarrao()">
+                    <img src="../imagens receitas/lasanha01.png" alt="Lasanha" onclick="lasanha()">
+                    <img src="../imagens receitas/suco-aba.png" alt="suco" onclick="">
+                    <img src="../imagens receitas/migual.png" alt="mingual" onclick="">
+                    <img src="../imagens receitas/morango-banana.png" alt="morango e banana" onclick="">
+                    <img src="" alt="">
+                    <img src="" alt="">
                 </div>
                 
                 <button class="seta-direitra" onclick="direita()">
