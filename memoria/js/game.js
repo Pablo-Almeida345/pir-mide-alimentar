@@ -40,3 +40,5 @@ const loadGame = () => {
 }
 
 loadGame();
+
+/*27:07*/
