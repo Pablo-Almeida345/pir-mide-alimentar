@@ -8,7 +8,7 @@
 
 body {
     background-color: var(--background);
-    width: 1920px;
+    width: 1440px;
     height: 1080px;
 }
 
@@ -118,6 +118,7 @@ a{
     text-decoration: none;
     color: var(--v5);
     color: var(--background);
+    font-size: 1.2rem;
 }
     
 .dados .ativo{
@@ -178,4 +179,10 @@ a{
 .pergunta, p{
     font-weight: bold;
     padding: 10px;
+    font-size: 25px;
+    
+}
+
+.container h2{
+    font-size: 40px;
 }

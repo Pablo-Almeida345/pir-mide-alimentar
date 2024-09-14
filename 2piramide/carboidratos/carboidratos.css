@@ -23,7 +23,7 @@
 
 
 body{
-  width: 1920px;
+  width: 1440px;
   height: 1080px;
 }
 
@@ -83,15 +83,15 @@ header .x{
   background: none;
 }
 
-  header {
+header {
     background-color: var(--v2);
     padding: 5px;
-  }
+}
   
 .dados {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
   
 .guia{
@@ -107,25 +107,25 @@ a{
 }
   
 .dados ul {
-    display: flex;
-    list-style: none; 
-  }
+  display: flex;
+  list-style: none; 
+}
   
 .dados li {
-  margin: 0 15px;
-}
+    margin: 0 15px;
+  }
   
 .dados a {
-  text-decoration: none;
-  color: var(--v5);
-  color: var(--background);
-}
+    text-decoration: none;
+    color: var(--v5);
+    color: var(--background);
+    font-size: 1.2rem;
+  }
   
   
-.ativo{
+.dados .ativo{
     color: var(--ativo);
 }
-
 .seta {
     display: flex;
     justify-content: baseline;

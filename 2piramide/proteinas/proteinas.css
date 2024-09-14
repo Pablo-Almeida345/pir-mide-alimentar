@@ -22,7 +22,7 @@
 }
 
 body{
-  width: 1920px;
+  width: 1440px;
   height: 1080px;
 }
 
@@ -82,42 +82,33 @@ header .x{
   background: none;
 }
 
-  header {
-    background-color: var(--v2);
-    padding: 5px;
-  }
-  
 header {
-  background-color: var(--v2);
-  padding: 5px;
-}
-  header {
     background-color: var(--v2);
     padding: 5px;
-  }
+}
   
 .dados {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-.guia{
-    border:none!important;
-    background: var(--v2);
 }
   
-  a{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
+.guia{
+  border:none!important;
+  background: var(--v2);
+}
+  
+a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
   
 .dados ul {
-    display: flex;
-    list-style: none; 
-  }
+  display: flex;
+  list-style: none; 
+}
   
 .dados li {
     margin: 0 15px;
@@ -127,10 +118,11 @@ header {
     text-decoration: none;
     color: var(--v5);
     color: var(--background);
+    font-size: 1.2rem;
   }
   
   
-.ativo{
+.dados .ativo{
     color: var(--ativo);
 }
 

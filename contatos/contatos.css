@@ -24,7 +24,7 @@
 body {
   background-image: url('../imagens/img-contatos.png');
   background-repeat: no-repeat; 
-  width: 1920px;
+  width: 1440px;
   height: 1080px;
 }
 
@@ -86,7 +86,7 @@ header .x{
 
 header {
   background-color: var(--background);
-  padding: 20px;
+  padding: 5px;
 }
 
 .dados {
@@ -118,6 +118,7 @@ a {
 .dados a {
   text-decoration: none;
   color: var(--v5);
+  font-size: 1.2rem;
 }
 
 li .ativo {
