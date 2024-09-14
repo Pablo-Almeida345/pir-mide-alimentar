@@ -1,5 +1,18 @@
 const grid = document.querySelector('.grid')
 
+const characters = [
+    'frango',
+    'ovo',
+    'macarrao',
+    'pao',
+    'frutas',
+    'brigadeiro',
+    'acucares',
+    'carbo',
+    'vegetais',
+    'doce',
+];
+
 const createElement = (tag, className) => {
     const element = document.createElement(tag);
     element.className = className;
@@ -7,7 +20,7 @@ const createElement = (tag, className) => {
 }
 
 
-const crateCard = () => {
+const createCard = () => {
     const card = createElement('div', 'card');
     const front = createElement('div', 'face front');
     const back = createElement('div', 'face back');
@@ -19,4 +32,11 @@ const crateCard = () => {
     return card;
 }
 
-/*24:11*/
+const loadGame = () => {
+    characters.forEach((characters) => {
+       const card = createCard();
+       grid.appendChild(card);
+    });
+}
+
+loadGame();

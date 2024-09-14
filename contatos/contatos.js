@@ -18,6 +18,9 @@ function fecharMenu(){
 }
 
 
+function home() {
+    window.location.href = "../../index.html";
+}
 
 function desing(){
     window.location.href = "https://www.instagram.com/vic.aquui/";

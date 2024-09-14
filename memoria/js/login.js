@@ -18,3 +18,7 @@ const handleSubmit = (event) => {
 
 input.addEventListener('input', validateInput);
 form.addEventListener('submit', handleSubmit);
+
+function seta(){
+  window.location.href = "../index.html";
+}

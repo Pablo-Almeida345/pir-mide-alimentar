@@ -18,6 +18,7 @@
     --verde-claro:#90ee90;
     --ativo:#0000FF;
     --cinza:#d3d3d3;
+    --guia: #60BB49;
 }
 
 
@@ -57,7 +58,7 @@ header nav .text{
 
 header nav{
   position: fixed;
-  background: var(--v1);
+  background: var(--guia);
   right: -20rem;
   top: 0;
   border-radius: 50px;

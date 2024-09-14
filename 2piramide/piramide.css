@@ -21,6 +21,7 @@
     --t1:#ffff00;
     --t2:#ffa500;
     --t3:#ff0000;
+    --guia: #60BB49;
 }
 
 body{
@@ -59,7 +60,7 @@ header nav .text{
 
 header nav{
   position: fixed;
-  background: var(--v1);
+  background: var(--guia);
   right: -20rem;
   top: 0;
   border-radius: 50px;

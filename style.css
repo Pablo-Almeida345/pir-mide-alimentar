@@ -19,11 +19,12 @@
   --ativo: #0000FF;
   --cinza: #d3d3d3;
   --roxo:#993399;
+  --guia: #60BB49;
 }
 
 body {
   width: 1440px;
-  height: 1080px;
+  height: 810px;
   background-color: var(--background);
 }
 
@@ -58,7 +59,7 @@ header nav .text{
 
 header nav{
   position: fixed;
-  background: var(--v1);
+  background: var(--guia);
   right: -20rem;
   top: 0;
   border-radius: 50px;

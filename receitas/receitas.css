@@ -18,12 +18,14 @@
   --verde-claro:#90ee90;
   --ativo:#0000FF;
   --cinza:#d3d3d3;
+  --guia: #60BB49;
 }
 
 body{
   width: 1440px;
   height: 1080px;
 }
+
 
 body.escurecer::before{
   content: "";
@@ -56,7 +58,7 @@ header nav .text{
 
 header nav{
   position: fixed;
-  background: var(--v1);
+  background: var(--guia);
   right: -20rem;
   top: 0;
   border-radius: 50px;
@@ -80,48 +82,48 @@ header .x{
   border: none;
   background: none;
 }
-
 header {
   background-color: var(--v2);
-  padding: 20px;
+  padding: 5px;
 }
-
+  
 .dados {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.guia{
-  border:none!important;
+  
+.guia {
+  border: none!important;
   background: var(--v2);
 }
 
+  
 a{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
-
+  
 .dados ul {
   display: flex;
   list-style: none; 
 }
-
+  
 .dados li {
   margin: 0 15px;
 }
-
+  
 .dados a {
   text-decoration: none;
+  color: var(--v5);
   color: var(--background);
 }
-
+  
 .dados .ativo{
   color: var(--ativo);
-} 
-
+}
 .titulo{
   display: flex;
   justify-content: center;
