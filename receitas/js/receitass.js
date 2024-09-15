@@ -1,11 +1,12 @@
-const BotaoAbrir = document.querySelector ("div > .guia")
+const BotaoAbrir = document.querySelector ("div > .guia");
 const BotaoFechar = document.querySelector ("header nav button")
 
-const body = document.querySelector("body")
-const nav = document.querySelector("header nav")
+const body = document.querySelector("body");
+const nav = document.querySelector("header nav");
 
-BotaoAbrir.addEventListener('click', abrirMenu )
-BotaoFechar.addEventListener('click', fecharMenu )
+
+BotaoAbrir.addEventListener('click', abrirMenu );
+BotaoFechar.addEventListener('click', fecharMenu );
 
 function abrirMenu() {
     body.classList.add("escurecer")
