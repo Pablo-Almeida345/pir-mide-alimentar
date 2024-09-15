@@ -62,3 +62,7 @@ function macarrao(){
   window.location.href = "macarrao/macarrao.html";
 }
 
+
+function avocado(){
+  window.location.href = "avocado/avocado.html";
+}
