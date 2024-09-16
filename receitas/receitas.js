@@ -66,3 +66,19 @@ function macarrao(){
 function avocado(){
   window.location.href = "avocado/avocado.html";
 }
+
+function mingau(){
+  window.location.href = "mingau/mingau.html";
+}
+
+function morango_banana(){
+  window.location.href = "mingau/mingau.html";
+}
+
+function suco_abacaxi(){
+  window.location.href = "suco-abacaxi/suco-abacaxi.html";
+}
+
+function tapioca_queijo(){
+  window.location.href = "tapioca-queijo/tapioca-queijo.html";
+}
