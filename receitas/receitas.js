@@ -72,7 +72,7 @@ function mingau(){
 }
 
 function morango_banana(){
-  window.location.href = "mingau/mingau.html";
+  window.location.href = "morango-banana/morango-banana.html";
 }
 
 function suco_abacaxi(){

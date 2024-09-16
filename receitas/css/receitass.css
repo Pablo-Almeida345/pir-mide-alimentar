@@ -168,7 +168,7 @@ h1 {
 
 .textos{
   background: var(--texto2);
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 10px;
 }
 
@@ -182,7 +182,7 @@ ol {
 
 .descricao{
   background: var(--texto2);
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 20px;
   font-size: 20px;
   color: var(--background);
