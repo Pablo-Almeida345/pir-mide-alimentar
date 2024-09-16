@@ -3,17 +3,16 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'beth',
-  'jerry',
-  'jessica',
-  'morty',
-  'pessoa-passaro',
-  'pickle-rick',
-  'rick',
-  'summer',
-  'meeseeks',
-  'scroopy',
-];
+  'frango',
+  'ovo',
+  'macarrao',
+  'pao',
+  'frutas',
+  'brigadeiro',
+  'acucares',
+  'carbo',
+  'vegetais',
+  'doce',];
 
 const createElement = (tag, className) => {
   const element = document.createElement(tag);
@@ -29,10 +28,12 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
+    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}, Quer recomçar de novo${a()}`)
   }
 }
-
+function a(){
+  window.location.href = "../memoria.html";
+}
 const checkCards = () => {
   const firstCharacter = firstCard.getAttribute('data-character');
   const secondCharacter = secondCard.getAttribute('data-character');
@@ -88,7 +89,7 @@ const createCard = (character) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  front.style.backgroundImage = `url('../images/${character}.png')`;
+  front.style.backgroundImage = `url('../img-memoria/${character}.png')`;
 
   card.appendChild(front);
   card.appendChild(back);
