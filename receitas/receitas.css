@@ -197,6 +197,19 @@ a{
   display: flex;
   justify-content: end;
   text-align: center;
+  background: #008000;
+}
+
+.pratos{
+  background: var(--background);
+  border-radius: 50px;
+}
+
+.t1{
+  background: var(--background);
+  border-radius: 100px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .textos ul {
@@ -206,7 +219,7 @@ a{
 }
 
 .textos li {
-  margin: 0 10px;
+  margin: 0 100px;
 
 }
 
