@@ -197,12 +197,14 @@ a{
   display: flex;
   justify-content: end;
   text-align: center;
-  background: #008000;
+  background: var(--v1);
 }
 
-.pratos{
+.l1,.l2,.l3{
   background: var(--background);
-  border-radius: 50px;
+  border-radius: 25px;
+  width: 100px;
+  height: 88px;
 }
 
 .t1{
