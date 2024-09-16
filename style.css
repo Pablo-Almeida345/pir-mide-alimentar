@@ -38,7 +38,6 @@ body.escurecer::before{
   left: 0;
 
 }
-
 header {
   background-color: var(--background);
   padding: 20px 40px;
@@ -84,20 +83,22 @@ header .x{
   background: none;
 }
 
+header {
+  background-color: var(--background);
+  padding: 5px;
+}
+
 .dados {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 999;
 }
-
 
 .guia {
   border: none!important;
   background: var(--background);
 }
-
-.nome {
+a {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,20 +111,24 @@ header .x{
 }
 
 .dados li {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
-.dados .nome {
+.dados a {
   text-decoration: none;
   color: var(--v5);
   font-size: 1.2rem;
 }
 
+li .ativo {
+  color: var(--ativo);
+} 
+
 .barra {
-  height: 2px;
+  height: 1px;
   display: flex;
   align-items: baseline;
-  margin: 0 40px; 
+  margin: 0 25px; 
   background-color: var(--v2); 
 }
 

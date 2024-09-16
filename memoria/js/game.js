@@ -25,7 +25,14 @@ const checkCards = () => {
     const firstCharacter = firstCard.getAttribute('data-characte');
     const secondCharacter = secondCard.getAttribute('data-characte');
 
-    if(firstCharacter === secondCard)
+    if(firstCharacter === secondCard){
+        
+    }else{
+        setTimeout(() => {
+            firstCard.classList.remove('reveal-card');
+            secondCard.classList.remove('reveal-card');
+        }, 500)
+    }
 }
 
 const revealcard = ({ target }) => {
