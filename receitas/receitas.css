@@ -200,15 +200,18 @@ a{
 
 .textos li {
   margin: 0 10px;
+
 }
 
 .container {
   display: flex;
   justify-content: baseline ;
   align-items: center;
+
 }
 
 
 .icon, .phone, .email {
   margin: 0 5px;
 }
+

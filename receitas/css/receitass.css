@@ -161,7 +161,7 @@ h1 {
 }
 
 .ingredients {
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 5px;
   color: var(--background);
 }
@@ -169,6 +169,7 @@ h1 {
 .textos{
   background: var(--texto2);
   border-radius: 5px;
+  margin: 10px;
 }
 
 ol {
