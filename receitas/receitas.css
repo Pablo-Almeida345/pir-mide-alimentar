@@ -139,7 +139,7 @@ a{
   font-weight: 400;
   font-style: normal;
   padding: 50px;
-  font-size: 25px;
+  font-size: 70px;
   color: var(--titulo);
 }
 
@@ -203,8 +203,12 @@ a{
 .l1,.l2,.l3{
   background: var(--background);
   border-radius: 25px;
-  width: 100px;
+  margin: 810000px;
+  width: 80%;
   height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .t1{
