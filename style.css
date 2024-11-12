@@ -23,8 +23,6 @@
 }
 
 body {
-  width: 1440px;
-  height: 1080px;
   background-color: var(--background);
 }
 
