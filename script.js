@@ -36,3 +36,16 @@ function receita() {
 function inicial(){
     window.location.href = "receitas/receitas.html  "
 }
+
+function veryfyToken() {
+    const token = localStorage.getItem("token")
+
+    if(!token){
+        window.location.href = "login/login.html"
+        return
+    }
+
+    /*verificar se o token e valido*/
+}
+
+veryfyToken()
