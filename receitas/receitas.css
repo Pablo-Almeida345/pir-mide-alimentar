@@ -25,10 +25,6 @@
   --titulo: #456A29;
 }
 
-body{
-  width: 1440px;
-  height: 1080px;
-}
 
 
 body.escurecer::before{

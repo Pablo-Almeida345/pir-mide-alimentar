@@ -68,7 +68,8 @@ app.post("/login", (request, response) => {
         if (user.password === data[0].password){
             const email = user.email
             const id = data[0].id//pedi para o marcio explicar
-            const token = jwt.sign({ id, email },SECRET_KEY, {expiresIn: "1h" } )
+            const name = data[0].name
+            const token = jwt.sign({ id, email, name },SECRET_KEY, {expiresIn: "1h" } )
             response.json({token, ok: true}) //e a parte de cima perguntar para o marcio para que serve isso 
             return
         } 
@@ -80,7 +81,7 @@ app.post("/login", (request, response) => {
 app.get("/verify", (request, response) => {
     const token = request.headers.authorization
 
-    jwt.verify(token, SECRET_KEY, (error) => {
+    jwt.verify(token, SECRET_KEY, (error, decoded) => {
         if (error){
             response.json({message: "Token inválido! Efetue o login novamente."})
             return
@@ -88,7 +89,17 @@ app.get("/verify", (request, response) => {
 
         response.json({ok: true})
     })
+
 })
+
+app.get("/getname", (request, response) => {
+    const token = request.headers.authorization
+
+    console.log(request.headers.authorization)
+    const decoded = jwt.verify(token, SECRET_KEY)
+
+    response.json({ name: decoded.name})
+})  
 
 app.listen(3000, () => {
     console.log("Servidor Rodando na porta 3000!")
